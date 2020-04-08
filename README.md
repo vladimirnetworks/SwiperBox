@@ -4,6 +4,8 @@ Pure javascript Swipe box
 support touch and mouse
 on click and on swipe events ...
 
+![](demo.gif)
+
 example #1
 ```
 <!doctype html><html>
