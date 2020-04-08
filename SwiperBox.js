@@ -8,6 +8,8 @@ function SwiperBox(fields) {
 	
     this.HTMLElement.style.overflow = "hidden";
     this.HTMLElement.style.position = "relative";
+    this.HTMLElement.style.direction = "ltr";
+	
 
 	
     var container = document.createElement("div");
