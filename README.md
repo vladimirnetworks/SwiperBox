@@ -108,3 +108,14 @@ document.getElementsByTagName("body")[0].appendChild(mySwipe.HTMLElement);
 </body>
 </html>
 ```
+
+
+## GoTo
+
+you can use GoTo method to swipe to any item like this
+
+```
+  <button onClick="mySwipe.GoTo(1)">1</button>   
+  <button onClick="mySwipe.GoTo(2)">2</button>   
+  <button onClick="mySwipe.GoTo(3)">3</button>   
+```

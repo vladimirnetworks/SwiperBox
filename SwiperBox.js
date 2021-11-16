@@ -105,8 +105,9 @@ function SwiperBox(fields) {
         }
     }
 	
-    this.gotothis = function(gotox) {
-
+    this.GoTo = function(gotox) {
+        
+        container.style.transition = 'all 0.3s';
         if (gotox > 0 && gotox <= container.children.length) {
 
             self.numx = gotox - 1;
